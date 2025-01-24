@@ -1,0 +1,33 @@
+.music_section{
+    
+    display: flex;
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza no eixo horizontal */
+    justify-content: center; /* Centraliza no eixo vertical (se necessário) */
+    text-align: center; /* Garante que o texto também fique centralizado */
+    background-color: #011229;
+}
+.image_disc{
+    max-width: 12%; 
+    height: auto;
+    margin-top: 2rem;
+}
+
+.music_section .music{
+    color:#fede31;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+}
+
+.music_section .mumusic{
+    color:#fede31;
+    font-size: 1.2rem;
+}
+
+.music_section .mumumusic{
+    text-align: center;
+    color: #b6b6b6;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+
+}

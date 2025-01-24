@@ -1,0 +1,22 @@
+.hero_section{
+    background-color: #03285c; 
+}
+.hero {
+    background-color: #3f6aa7; 
+    padding: 3rem; 
+    margin-inline: auto;
+    max-width: 110ch; 
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hero_section .title{
+    color: #fede31;
+    font-size: 1.8rem;
+}
+.hero_section .description{
+    color: #e4e4e4;
+    font-size: 1.1rem;
+    margin-block: 1rem;
+}
+

@@ -1,0 +1,63 @@
+.gift_section{
+    background-color: #011229;
+}
+
+.gift {
+    position: relative;
+    background-color: #03285c; 
+    padding: 3rem; 
+    margin-inline: auto;
+    max-width: 110ch; 
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1{
+    color:#fede31;
+    font-size: 1.8rem;
+}
+p{
+    margin-top: 1rem;
+    color: #b6b6b6;
+    font-size: 1.1rem;
+}
+
+.gift_image_and_button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 8rem; /* Espaço entre a imagem e o botão */
+    margin-top: 20px;
+}
+
+.gift_image {
+    max-width: 30%; 
+    height: auto;
+}
+
+.gift_button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #314e8a; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 20px;
+}
+
+.gift_button:hover {
+    color: #314e8a;
+    background-color: #fff; 
+}
+
+.gift::after {
+    content: "";
+    display: block;
+    width: 85%; 
+    height: 2px; 
+    background-color: #fede31;
+    margin: 0 auto; 
+    margin-top: 10px; 
+}
